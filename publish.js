@@ -304,7 +304,8 @@ function buildMemberNav(items, itemHeading, itemsSeen, linktoFn) {
             } else if ( !hasOwnProp.call(itemsSeen, item.longname) ) {
                 itemsNav += '<li>' + linktoFn(item.longname, item.name.replace(/^module:/, ''));
 
-                if (docdash.static && members.find(function (m) { return m.scope === 'static'; } )) {
+                if (members.length) {
+                    itemsNav += "<a class='button collapse'>Members</a>";
                     itemsNav += "<ul class='members'>";
 
                     members.forEach(function (member) {
@@ -318,6 +319,7 @@ function buildMemberNav(items, itemHeading, itemsSeen, linktoFn) {
                 }
 
                 if (methods.length) {
+                    itemsNav += "<a class='button collapse'>Methods</a>"
                     itemsNav += "<ul class='methods'>";
 
                     methods.forEach(function (method) {
