@@ -25,7 +25,7 @@ img {
 
 a,
 a:active {
-  color: #606;
+  color: #fc83ff;
   text-decoration: none;
 }
 
@@ -84,10 +84,8 @@ h4 {
 
 h4.name {
   color: #fff;
-  background: #6d426d;
-  box-shadow: 0 .25em .5em #d3d3d3;
-  border-top: 1px solid #d3d3d3;
-  border-bottom: 1px solid #d3d3d3;
+  background: #222222;
+  box-shadow: 0 .25em .5em #4d4e53;
   margin: 1.5em 0 0.5em;
   padding: .75em 0 .75em 10px;
 }
@@ -199,7 +197,7 @@ nav ul a:active {
 
 nav a:hover,
 nav a:active {
-  color: #606;
+  color: #494949;
 }
 
 nav > ul {
@@ -207,7 +205,7 @@ nav > ul {
 }
 
 nav > ul > li > a {
-  color: #606;
+  color: white;
 }
 
 nav ul ul {
@@ -219,7 +217,7 @@ nav ul ul + ul {
 }
 
 nav ul ul a {
-  color: hsl(207, 1%, 60%);
+  color: black;
   border-left: 1px solid hsl(207, 10%, 86%);
   margin-left: 5px;
 }
@@ -238,7 +236,7 @@ nav h2 {
 nav > h2 > a {
    display: block;
    margin: 10px 0 -10px;
-   color: #606 !important;
+   color: white !important;
 }
 
 footer {
@@ -342,14 +340,14 @@ footer {
   width: inherit;
   line-height: 18px;
   display: block;
-  background-color: #0d152a;
+  background-color: #494949;
   color: #aeaeae;
 }
 
 .prettyprint code {
   line-height: 18px;
   display: block;
-  background-color: #0d152a;
+  background-color: #494949;
   color: #4D4E53;
 }
 
@@ -382,11 +380,11 @@ footer {
 }
 
 .prettyprint.linenums li {
-   border-left: 3px #34446B solid;
+   border-left: 3px #222222 solid;
 }
 
 .prettyprint.linenums li.selected, .prettyprint.linenums li.selected * {
-   background-color: #34446B;
+   background-color: #222222;
 }
 
 .prettyprint.linenums li * {
@@ -416,7 +414,7 @@ footer {
 }
 
 .params td, .params .name, .props .name, .name code {
-   color: #4D4E53;
+   color: black;
    font-family: Consolas, Monaco, 'Andale Mono', monospace;
    font-size: 100%;
 }
@@ -454,7 +452,7 @@ footer {
 }
 
 span.param-type, .params td .param-type, .param-type dd {
-   color: #606;
+   color: #fc83ff;
   font-family: Consolas, Monaco, 'Andale Mono', monospace
 }
 
@@ -660,7 +658,7 @@ ul.members
 .button.collapse
 {
   cursor: pointer;
-  color: #C234FA;
+  color: #fc83ff;
 }
 
 .button.collapse:after 
